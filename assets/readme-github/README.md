@@ -2,7 +2,7 @@
 
 ## General Information
 **Preview** [open](http://jorit.vasconezgerlach.de/host/github/{{PROJECT_FOLDER}}/)\
-**Licence** Free to copy, edit and share\
+**License** Free to copy, edit and share\
 **Languages** JS, PHP, CSS, HTML ##MOST RELEVANT FIRST###
 
 ## About Creator
