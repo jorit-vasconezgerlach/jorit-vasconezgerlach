@@ -1,10 +1,10 @@
-## Git Repo Commands
-####Git global setup
+## Git Reposetory Commands
+#### Git global setup
 ```
 git config --global user.name "Jorit Vásconez Gerlach"
 git config --global user.email "jorit@vasconezgerlach.de"
 ```
-####Create a new repository
+#### Create a new repository
 ```
 git clone https://gitlab.com/{GitLab Username}/{GitLab Project}.git
 cd test-project
@@ -14,7 +14,7 @@ git add README.md
 git commit -m "add README"
 git push -u origin main
 ```
-####Push an existing folder
+#### Push an existing folder
 ```
 cd existing_folder
 git init --initial-branch=main
@@ -23,7 +23,7 @@ git add .
 git commit -m "Initial commit"
 git push -u origin main
 ```
-####Push an existing Git repository
+#### Push an existing Git repository
 ```
 cd existing_repo
 git remote rename origin old-origin
@@ -33,7 +33,7 @@ git push -u origin --tags
 ```
 
 ## Commit Commands
-#### Close Issue
+#### Close issue
 ```
 Close #16
 ```
