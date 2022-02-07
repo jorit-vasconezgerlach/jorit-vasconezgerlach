@@ -1,35 +1,31 @@
-## Git Reposetory Commands
+## Git Reposetory Important Commands
 #### Git global setup
 ```
 git config --global user.name "Jorit Vásconez Gerlach"
 git config --global user.email "jorit@vasconezgerlach.de"
 ```
-#### Create a new repository
+#### Connect to an local existing folder
 ```
-git clone https://gitlab.com/{GitLab Username}/{GitLab Project}.git
-cd test-project
-git switch -c main
-touch README.md
+cd {Existing Folder Root}
+git init
+git remote add origin https://gitlab.com/{GitLab Username}/{GitLab Project}.git
+git pull origin main
+```
+add README.md
+```
+echo "# fs" >> README.md 
 git add README.md
-git commit -m "add README"
-git push -u origin main
 ```
-#### Push an existing folder
+commit everything
 ```
-cd existing_folder
-git init --initial-branch=main
-git remote add origin https://gitlab.com/{GitLab Username}/{GitLab Project}.git
 git add .
-git commit -m "Initial commit"
+git commit -m "{Commit Description}"
 git push -u origin main
 ```
-#### Push an existing Git repository
+#### Clone from GitLab to local
 ```
-cd existing_repo
-git remote rename origin old-origin
-git remote add origin https://gitlab.com/{GitLab Username}/{GitLab Project}.git
-git push -u origin --all
-git push -u origin --tags
+cd {Folder To Download Project Folder In}
+git clone https://gitlab.com/{GitLab Username}/{GitLab Project}.git
 ```
 
 ## Commit Commands
