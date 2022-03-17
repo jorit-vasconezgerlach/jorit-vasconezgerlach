@@ -11,7 +11,7 @@ $replyToMail = 'Reply To Mail';
 
 // set header
 $headers = "From: ".$sendFromName." <".$sendFromMail.">\r\n";
-$headers .= "Reply-To: $replyToMail\r\n";
+$headers .= "Reply-To: ".$replyToMail."\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; chartset=UTF-8\r\n";
 
