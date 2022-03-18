@@ -28,9 +28,9 @@ window.addEventListener('load', ()=>{
                                         // response
                                         var response = JSON.parse(xhr.responseText);
                                         if(response['error']) {
-                                                  // send
-                                        } else {
                                                   // not send
+                                        } else {
+                                                  // send
                                                   contactForm.reset();
                                         }
                               }
