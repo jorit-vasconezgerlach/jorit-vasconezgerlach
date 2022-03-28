@@ -1,4 +1,40 @@
-## Git Reposetory Important Commands
+## GitLab Platform Shortcuts
+
+#### Most useful commands for WebApp
+`?` Show all commands
+
+`Shift` + `i` Open your issue overview
+`Shift` + `p` Open your project overview
+`Shift` + `m` Open your merge request overview
+`Shift` + `t` Open your to-do list
+
+**Navigation (In project)**
+`i` New issue in project
+`t` Go to find file
+
+More
+`g` then `i` Go to issues
+`g` then `m` Go to merge requests
+`g` then `w` Go to wiki
+`g` then `b` Go to issue board
+`g` then `c` Go to commits
+`g` then `r` Go to releases
+`g` then `f` Go to files
+
+**Editing (In inputs)**
+`command` + `b` Bold text
+`command` + `i` Italic text
+`command` + `k` Link text
+`command` + `p` Toggle preview
+`command` + `shift` + `s` Strikethrough text
+
+**On issue**
+`r` Comment or reply
+`a` Change assignee
+`l` Change label
+
+## Git Repository Important Commands
+
 #### Git global setup
 ```
 git config --global user.name "Jorit Vásconez Gerlach"
