@@ -8,11 +8,11 @@
 `Shift` + `m` Open your merge request overview\
 `Shift` + `t` Open your to-do list
 
-**Navigation (In project)**
+**Navigation (In project)**\
 `i` New issue in project\
 `t` Go to find file
 
-More
+**More**\
 `g` then `i` Go to issues\
 `g` then `m` Go to merge requests\
 `g` then `w` Go to wiki\
@@ -21,14 +21,14 @@ More
 `g` then `r` Go to releases\
 `g` then `f` Go to files
 
-**Editing (In inputs)**
+**Editing (In inputs)**\
 `command` + `b` Bold text\
 `command` + `i` Italic text\
 `command` + `k` Link text\
 `command` + `p` Toggle preview\
 `command` + `shift` + `s` Strikethrough text
 
-**On issue**
+**On issue**\
 `r` Comment or reply\
 `a` Change assignee\
 `l` Change label
