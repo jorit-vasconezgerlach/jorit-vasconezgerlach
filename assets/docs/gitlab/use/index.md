@@ -70,3 +70,23 @@ git clone https://gitlab.com/{GitLab Username}/{GitLab Project}.git
 Close #16
 ```
 16 stands for the issue number
+
+## Role System
+
+Starting from owner, the highest role to guest the lowest
+
+1. **Owner**
+   Can do everything in and with the project. But be careful owners can remove other owners.
+
+2. **Maintainer**
+   Can't delete issues, merge requests or project. Projects also cant be transferred to another namespace, archived, visibility level changed or email notifications disabled. This role could cause chaos but in worst case the code and issues are safe.
+
+3. **Developer**
+   Can't delete issues, merge request. Either manage GitLab pages or the project. Role member can work on project and is not there to configure things but could cause chaos but in worst case the code and issues are safe.
+
+4. **Reporter**
+   
+
+5. **Guest**
+
+[Open GitLab documentation with detailed information](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions)
