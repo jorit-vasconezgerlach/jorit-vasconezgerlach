@@ -71,6 +71,13 @@ Close #16
 ```
 16 stands for the issue number
 
+[Open GitLab documentation with detailed information](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+
+### Quick Actions
+
+[Open GitLab documentation with detailed information](https://docs.gitlab.com/ee/user/project/quick_actions.html#issues-merge-requests-and-epics)
+
+
 ## Role System
 
 Starting from owner, the highest role to guest the lowest
